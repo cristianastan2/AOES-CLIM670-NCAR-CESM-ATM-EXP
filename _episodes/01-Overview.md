@@ -99,6 +99,8 @@ Remember that the compset determines which grids are `scientifically validated`,
 
 ### How is the ocean prescribed in this run?
 
+Full documentation on `DOCN` is [here](https://esmci.github.io/cime/versions/master/html/index.html)
+
 The file specifying the SST and Ice data is located in `SSTCE_DATA_FILENAME`. We can use `xmlquery` to see what this is set to.
 
 ~~~
@@ -137,6 +139,7 @@ We now know how to create a case with ocean prescribed.
 We know how to set the file that prescribes the ocean.
 
 We have an example file that prescribes the ocean.
+
 
 {% include links.md %}
 
