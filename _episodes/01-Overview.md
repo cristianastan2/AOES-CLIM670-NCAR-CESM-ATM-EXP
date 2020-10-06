@@ -46,7 +46,7 @@ There are several options here, but the most basic option is `FHIST`.  This is a
 
 Remember that the compset determines which grids are `scientifically validated`, meaning which ones have been tested. 
 
-> ### Is our resolution grid `scientifically validated` for any of the `F` compsets?
+> ## Is our resolution grid `scientifically validated` for any of the `F` compsets?
 >
 > Take a look at the webpage and view the scientifically validated grid for 
 > the F-composets. See if our grid is listed.
@@ -54,15 +54,15 @@ Remember that the compset determines which grids are `scientifically validated`,
 >
 {: .challenge}  
 
-> ### Create your case
+> ## Create your case
 >
 > Create a new case using the `FHIST` compset with our grid and project code
 > Call the case whatever you wish.
 >
-> ~~~
-> $ ./create_newcase --case ~/cases/testatmF --res f19_g17 --compset FHIST --project UGMU0032
-> ~~~
-> {: .language-bash}
+>> ~~~
+>> $ ./create_newcase --case ~/cases/testatmF --res f19_g17 --compset FHIST --project UGMU0032
+>> ~~~
+>> {: .language-bash}
 > 
 > 
 > You will get an error.  Read the error.  
@@ -70,17 +70,16 @@ Remember that the compset determines which grids are `scientifically validated`,
 > What does it mean? 
 > What do you need to do to setup your case with this compset and grid resolution?
 >
->> ### Solution
+>> ## Solution
 >>
 >> `create_newcase` is letting us know that our grid is not scientifically validated for this
 >> compset.  It tells us we can use the `--run_unsupported` option to use this grid and compset 
 >> anyway.
 >>
->> ~~~
->> $ ./create_newcase --case ~/cases/testatmF --res f19_g17 --compset FHIST --project UGMU0032 --run-unsupported
->> ~~~
+>>> ~~~
+>>> $ ./create_newcase --case ~/cases/testatmF --res f19_g17 --compset FHIST --project UGMU0032 --run-unsupported
+>>> ~~~
 >> {: .language-bash}
->>
 > {: .solution}
 >
 >
@@ -88,15 +87,14 @@ Remember that the compset determines which grids are `scientifically validated`,
 >
 >> # Solution 
 >> 
->> ~~~
->> $ ./case.setup
->> $ qcmd -- case.build
->> $ ./xmlchange STOP_OPTION=nmonths
->> $ ./xmlchange STOP_N=1
->> ~~~
+>>> ~~~
+>>> $ ./case.setup
+>>> $ qcmd -- case.build
+>>> $ ./xmlchange STOP_OPTION=nmonths
+>>> $ ./xmlchange STOP_N=1
+>>> ~~~
 >> {: .language-bash}
->>
->
+> {: .solution}
 {: .challenge}  
 
 ### How is the ocean prescribed in this run?
