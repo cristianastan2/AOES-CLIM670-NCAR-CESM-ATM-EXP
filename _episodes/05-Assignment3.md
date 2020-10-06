@@ -17,19 +17,25 @@ n = climatology (no SST anomaly)
 w = 2*SST anomaly
 c = -2 * SST anomaly
 
-PwAw: Douglas, Sherry
-PwAn: Mary, Joshi
-PwAc: Zack
+PwAw: Douglas
+
+PwAn: Mary
+
+PwAc: Rachel
+
 PnAw: Hsin
+
 PnAn: Scott
+
 PnAc: Nikki
+
 PcAw: Finley
-PcAn: Rachel
-PcAc: Bradley
+
+PcAn: Sherry, Zack 
+
+PcAc: Bradley, Joshi
 
 Climatology: Kathy
-
-To do this, you will need to expand your SST data file to contain 10 years of data.  This should be the same data repeated. 
 
 2. When your data is ready, tell the class where to find it.  I will do the same for the climatology experiment.
 

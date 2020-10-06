@@ -10,11 +10,11 @@ keypoints:
 
 In this lesson, we will learn about setting up experiments using the atmosphere with the ocean in data mode with prescribed SST forcing.  
 
-We will start with a basic case of running an atmosphere-only experiment.  We will then consider a specific scientific question and setup experiments using the atmosphere-only to answer this question, following the the *Drought Working Group Experiments*.  
+We will start with a basic case of running an atmosphere-forced experiment.  We will then consider a specific scientific question and setup experiments using the atmosphere-forced experiment to answer this question, following the *Drought Working Group Experiments*.  
 
 ### Running the Atmosphere
 
-Anytime we want to setup a new expeiment, we will create a newcase using the `create_newcase` script.  The script requires us to provide several things when we run it.  Let's figure out the correct options for setting up a case with the atmosphere-only.
+Anytime we want to setup a new expeiment, we will create a newcase using the `create_newcase` script.  The script requires us to provide several things when we run it.  Let's figure out the correct options for setting up a case with the atmosphere in forced mode.
 
 `--case ~/case/casename`
 We can name our case whatever we want
@@ -36,17 +36,17 @@ There are two ways to determine which compset to use.
 ~~~
 $ CIMEROOT/scripts/query_config --compsets
 ~~~
-{. :language-bash}
+{: .language-bash}
 
-We can see from this that the compsets with `cam`, the atmosphere model active all start with `F`, but it gives us the complicated long name and doesn't provide us with all the information we need.  Let's take a look at the [ website](http://www.cesm.ucar.edu/models/cesm2/config/compsets.html) for more information. 
+We can see from this that the compsets with `cam`, the atmosphere model, active all start with `F`, but it gives us the complicated long name and doesn't provide us with all the information we need.  Let's take a look at the [ website](http://www.cesm.ucar.edu/models/cesm2/config/compsets.html) for more information. 
 
 Notice that the website indicates which version of CESM you are using in the upper right corner.  Our version is `CESM 2.1.1`.  Let's scroll until we find the `F` compsets. 
 
-There are several options here, but the most basic option is `FHIST`.  This is an atmopshee only run with prescribed ocean and ice using historical GHG forcing.
+There are several options here, but the most basic option is `FHIST`.  This is an atmosphere forced run with prescribed ocean and ice using historical GHG forcing.
 
 Remember that the compset determines which grids are `scientifically validated`, meaning which ones have been tested. 
 
-### Is our resolution grid `scientifically validated` for any of the `F` compsets?
+> ### Is our resolution grid `scientifically validated` for any of the `F` compsets?
 >
 > Take a look at the webpage and view the scientifically validated grid for 
 > the F-composets. See if our grid is listed.
@@ -54,7 +54,7 @@ Remember that the compset determines which grids are `scientifically validated`,
 >
 {: .challenge}  
 
-### Create your case
+> ### Create your case
 >
 > Create a new case using the `FHIST` compset with our grid and project code
 > Call the case whatever you wish.
@@ -126,7 +126,7 @@ $ ncdump -h /glade/p/cesmdata/cseg/inputdata/atm/cam/sst/sst_HadOIBl_bc_1x1_1850
 {: .language-bash}
 
 The data contains several variables:  `ice_cov`, `SST_cpl`, etc.
-The global attributes tell us how this data was made and even give us a reference for it.  We can look this up in more detail if we wnat.  For now, let's take a look at the data using `ncview`.
+The global attributes tell us how this data was made and even give us a reference for it.  We can look this up in more detail if we want.  For now, let's take a look at the data using `ncview`.
 
 ~~~
 $ module load ncview
@@ -135,7 +135,9 @@ $ ncview /glade/p/cesmdata/cseg/inputdata/atm/cam/sst/sst_HadOIBl_bc_1x1_1850_20
 {: .language-bash}
 
 We now know how to create a case with ocean prescribed.
+
 We know how to set the file that prescribes the ocean.
+
 We have an example file that prescribes the ocean.
 
 {% include links.md %}

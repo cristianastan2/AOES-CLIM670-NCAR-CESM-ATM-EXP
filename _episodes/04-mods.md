@@ -25,8 +25,8 @@ $ ./case.submit
 ~~~
 {: .language-bash}
 
-### Do the SSTs ouput by the model look like your SSTs?  
-
+> ### Do the SSTs ouput by the model look like your SSTs?  
+>
 > Once your test run is able to run successfully, you will want to cofirm that it is working as expected. 
 >
 > Since yours will have to wait in the queue, we can look at my data to confirm that it ran properly. 
@@ -34,5 +34,8 @@ $ ./case.submit
 >
 > My data are located in: '/glade/scratch/kpegion/archive/testatmF/atm/hist/`
 >
-> The variable `TS` in the atm history files is SST over the ocean. Can you convince youself that the data is consistent enough to believe that the SST data provided is being used by the model?
+> The variable `TS` in the atm history files is SST over the ocean. How can you convince youself that the data is consistent enough to believe that the SST data provided is being used by the model?
+>
+> A sample program to get you started is located in: `~kpegion/clim670/CheckSSTData.ipynb`
+>
 {: .challenge}

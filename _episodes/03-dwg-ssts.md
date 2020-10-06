@@ -14,7 +14,9 @@ The SSTs for each experiment are located on COLA in:
 `/glade/scratch/kpegion/droughtwg/`
 
 The SST anomalies for the Pacific are located in: `Pacific_SST.nc`
+
 The SST anomalies for the Atlantic are located in: `N_atl_SST.nc`
+
 The climatological SSTs are located in: `monthly_climatology_sst_ice.nc`
 
 Let's read in and make a plot of these data.  Launch Jupyter (or your preferred Python environment):
@@ -48,8 +50,10 @@ $ start-jupyter
 ~~~
 {: .language-bash}
 
-Once you start Jupyter you will see the information that tells you to `Run the following command on your desktop or laptop:`
-and `The Jupyter web interface will ask you for this token:`, followed by a long token of characters.  This token is your Jupyter login information and you should not share it as it could allow others to access your files.
+Once you start Jupyter you will see the information that tells you to `Run the following command on your desktop or laptop:` and
+
+ `The Jupyter web interface will ask you for this token:`, followed by a long token of characters.  
+This token is your Jupyter login information and you should not share it as it could allow others to access your files.
 
 You can now open the Jupyter notebook using the file browser in Jupyter.
 

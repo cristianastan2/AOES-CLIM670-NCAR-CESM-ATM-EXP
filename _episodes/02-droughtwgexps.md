@@ -27,12 +27,14 @@ SST anomalies were defined in the Atlantic and Pacific Oceans based on spatial p
 from [Schubert et al. Figure 1](https://journals-ametsoc-org.mutex.gmu.edu/jcli/article/22/19/5251/32333)
 
 The first EOF is consistent with the global mean trend.
+
 The second EOF is concentrated in the Pacific.
+
 The third EOF is concentrated in the Atlantic.
 
 SST anomaly patterns for the Atlantic and Pacific were created based on this analysis. We will look at them later.
 
-A set of 9 experiments consisting of +/- 2 standard deviations and their combinations created 9 base experiments.
+A set of 9 experiments consisting of +/- 2 standard deviations in the Atl and Pacific basins and their combinations created 9 base experiments.
 
 |                 | Warm Atlantic | Neutral Atlantic | Cold Atlantic |
 |--------------------------------------------------------------------|
