@@ -10,10 +10,17 @@ keypoints:
 
 ###  Model Configuration
 
-We now need to change the model configuration to run with our new file. 
+We now need to change the model configuration to run with our new file. We will change some things and confirm a few other configuration parameters
 ~~~
 $ ./xmlchange SSTICE_DATA_FILENAME=/glade/scratch/kpegion/input/dwg_pacpos.nc
+~~~
+{: .language-bash}
+
+Check these other variables and confirm we know what they do and how they should be set.
+~~~
 $ ./xmlquery SSTICE_YEAR_START
+$ ./xmlquery SSTICE_YEAR_END
+$ ./xmlquery SSTICE_YEAR_ALIGN
 ~~~
 {: .language-bash}
 
@@ -41,3 +48,8 @@ $ ./case.submit
 > A sample program to get you started is located in: `~kpegion/clim670/CheckSSTData.ipynb`
 >
 {: .challenge}
+
+
+Once we have convinced ourselves that this works properly, how would we continue the run for a full year so we can test that?
+
+Once a full year works and we have tested it properly, how would we run for 10-years?
