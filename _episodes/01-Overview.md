@@ -81,7 +81,6 @@ Remember that the compset determines which grids are `scientifically validated`,
 >>> ~~~
 >> {: .language-bash}
 > {: .solution}
-{: .challenge}
 >
 >
 > Complete the setup, build the case and run it for 1-month as a test
@@ -96,6 +95,7 @@ Remember that the compset determines which grids are `scientifically validated`,
 >>> ~~~
 >> {: .language-bash}
 > {: .solution}
+> 
 {: .challenge}  
 
 ### How is the ocean prescribed in this run?
