@@ -25,7 +25,7 @@ We are using this resolution, but we will need to check if it is available for w
 `--compset COMPSET`
 We will need to determine the right compset for this experiment.
 
-`--project UGMU0032`
+`--project UGMU0041`
 This is our project code.  It does not change.
 
 ### What `compset` do we use?
@@ -40,7 +40,7 @@ $ CIMEROOT/scripts/query_config --compsets
 
 We can see from this that the compsets with `cam`, the atmosphere model, active all start with `F`, but it gives us the complicated long name and doesn't provide us with all the information we need.  Let's take a look at the [ website](http://www.cesm.ucar.edu/models/cesm2/config/compsets.html) for more information. 
 
-Notice that the website indicates which version of CESM you are using in the upper right corner.  Our version is `CESM 2.1.1`.  Let's scroll until we find the `F` compsets. 
+Notice that the website indicates which version of CESM you are using in the upper right corner.  Our version is `CESM 2.1.3`.  Let's scroll until we find the `F` compsets. 
 
 There are several options here, but the most basic option is `FHIST`.  This is an atmosphere forced run with prescribed ocean and ice using historical GHG forcing.
 
@@ -60,7 +60,7 @@ Remember that the compset determines which grids are `scientifically validated`,
 > Call the case whatever you wish.
 >
 >> ~~~
->> $ ./create_newcase --case ~/cases/testatmF --res f19_g17 --compset FHIST --project UGMU0032
+>> $ ./create_newcase --case ~/cases/testatmF --res f19_g17 --compset FHIST --project UGMU0041
 >> ~~~
 >> {: .language-bash}
 > 
@@ -77,7 +77,7 @@ Remember that the compset determines which grids are `scientifically validated`,
 >> anyway.
 >>
 >>> ~~~
->>> $ ./create_newcase --case ~/cases/testatmF --res f19_g17 --compset FHIST --project UGMU0032 --run-unsupported
+>>> $ ./create_newcase --case ~/cases/testatmF --res f19_g17 --compset FHIST --project UGMU0041 --run-unsupported
 >>> ~~~
 >> {: .language-bash}
 > {: .solution}
