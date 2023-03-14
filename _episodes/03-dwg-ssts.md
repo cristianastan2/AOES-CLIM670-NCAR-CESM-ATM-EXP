@@ -30,30 +30,12 @@ $ cp ~cstan/clim670/droughtwg/droughwgexps.ipynb .
 
 To launch the Jupyter notebook on the NCAR computers
 ~~~
-Log in to the Production ![https://jupyterhub.hpc.ucar.edu](NCAR JupyterHub)
+1. Log in to the Production [NCAR JupyterHub](https://jupyterhub.hpc.ucar.edu)
+2. Start a [server](https://arc.ucar.edu/knowledge_base/70549913)
 ~~~
 {: .language-bash}
 
 This is the NCAR data analysis cluster.  We use the cheyenne supercomputer to run the model.  We use the casper analysis cluster to do data analysis on model output or to do data analysis to prepare data for our model experiments.  
-
-Next, we need to load python and activate the python environment:
-
-~~~
-$ module load python/3.6.8
-$ ncar_pylib
-~~~
-{: .language-bash}
-
-Finally, we start Jupyter and follow the instructions on the screen:
-~~~
-$ start-jupyter
-~~~
-{: .language-bash}
-
-Once you start Jupyter you will see the information that tells you to `Run the following command on your desktop or laptop:` and
-
- `The Jupyter web interface will ask you for this token:`, followed by a long token of characters.  
-This token is your Jupyter login information and you should not share it as it could allow others to access your files.
 
 You can now open the Jupyter notebook using the file browser in Jupyter.
 
