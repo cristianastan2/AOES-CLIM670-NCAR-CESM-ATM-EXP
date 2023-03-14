@@ -89,7 +89,7 @@ Remember that the compset determines which grids are `scientifically validated`,
 >> 
 >>> ~~~
 >>> $ ./case.setup
->>> $ qcmd --./case.build
+>>> $ qcmd -- case.build
 >>> $ ./xmlchange STOP_OPTION=nmonths
 >>> $ ./xmlchange STOP_N=1
 >>> ~~~
