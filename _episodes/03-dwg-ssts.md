@@ -29,11 +29,9 @@ $ cp ~cstan/clim670/droughtwg/droughwgexps.ipynb .
 {: .language-bash}
 
 To launch the Jupyter notebook on the NCAR computers
-~~~
+
 1. Log in to the Production [NCAR JupyterHub](https://jupyterhub.hpc.ucar.edu)
 2. Start a [server](https://arc.ucar.edu/knowledge_base/70549913)
-~~~
-{: .language-bash}
 
 This is the NCAR data analysis cluster.  We use the cheyenne supercomputer to run the model.  We use the casper analysis cluster to do data analysis on model output or to do data analysis to prepare data for our model experiments.  
 
