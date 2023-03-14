@@ -85,7 +85,7 @@ Remember that the compset determines which grids are `scientifically validated`,
 >
 > Complete the setup, build the case and run it for 1-month as a test
 >
->> # Solution 
+>> ## Solution 
 >> 
 >>> ~~~
 >>> $ ./case.setup
