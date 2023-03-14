@@ -21,16 +21,16 @@ The climatological SSTs are located in: `monthly_climatology_sst_ice.nc`
 
 Let's read in and make a plot of these data.  Launch Jupyter (or your preferred Python environment):
 
-An example notebook is located here in: `~kpegion/clim670/droughtwg/droughwgexps.ipynb'. You should copy it to your home directory or any special subdirectory you use for saving class related files:
+An example notebook is located here in: `~cstan/clim670/droughtwg/droughwgexps.ipynb'. You should copy it to your home directory or any special subdirectory you use for saving class related files:
 ~~~
 $ cd
-$ cp ~kpegion/clim670/droughtwg/droughwgexps.ipynb .
+$ cp ~cstan/clim670/droughtwg/droughwgexps.ipynb .
 ~~~
 {: .language-bash}
 
-To launch the Jupyter notebook on the NCAR computers, first login to `casper.ucar.edu`.
+To launch the Jupyter notebook on the NCAR computers
 ~~~
-ssh -Y -l username casper.ucar.edu
+Log in to the Production ![https://jupyterhub.hpc.ucar.edu](NCAR JupyterHub)
 ~~~
 {: .language-bash}
 
