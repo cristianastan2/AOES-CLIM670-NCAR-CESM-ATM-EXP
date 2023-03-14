@@ -45,7 +45,7 @@ $ ./case.submit
 >  How can you convince youself that the data is consistent enough to believe that the SST data provided
 >  is being used by the model?
 >
-> A sample program to get you started is located in: `~kpegion/clim670/CheckSSTData.ipynb`
+> A sample program to get you started is located in: `~cstan/clim670/CheckSSTData.ipynb`
 >
 {: .challenge}
 
