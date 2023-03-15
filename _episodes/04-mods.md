@@ -12,7 +12,7 @@ keypoints:
 
 We now need to change the model configuration to run with our new file. We will change some things and confirm a few other configuration parameters
 ~~~
-$ ./xmlchange SSTICE_DATA_FILENAME=/glade/scratch/kpegion/input/dwg_pacpos.nc
+$ ./xmlchange SSTICE_DATA_FILENAME=/glade/scratch/cstan/input/dwg_pacpos.nc
 ~~~
 {: .language-bash}
 
@@ -39,7 +39,7 @@ $ ./case.submit
 > Since yours will have to wait in the queue, we can look at my data to confirm that it ran properly. 
 > There is no ocean model output since the ocean is not run. 
 >
-> My data are located in: '/glade/scratch/kpegion/archive/testatmF/atm/hist/`
+> My data are located in: '/glade/scratch/cstan/archive/testatmF/atm/hist/`
 >
 > The variable `TS` in the atm history files is SST over the ocean.
 >  How can you convince youself that the data is consistent enough to believe that the SST data provided
