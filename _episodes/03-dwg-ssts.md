@@ -11,7 +11,7 @@ keypoints:
 ### The SSTs
 
 The SSTs for each experiment are located on COLA in:
-`/glade/scratch/kpegion/droughtwg/`
+`/glade/scratch/cstan/droughtwg/`
 
 The SST anomalies for the Pacific are located in: `Pacific_SST.nc`
 
@@ -56,7 +56,7 @@ We can use `ncview` to take a quick look at our data file and confirm that it lo
 
 ~~~
 $ module load ncview
-$ ncview /glade/scratch/kpegion/input/dwg_pacpos.nc
+$ ncview /glade/scratch/cstan/input/dwg_pacpos.nc
 ~~~
 {: .language-bash}
 
