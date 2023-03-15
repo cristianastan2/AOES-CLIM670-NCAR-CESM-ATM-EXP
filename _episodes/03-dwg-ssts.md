@@ -35,7 +35,7 @@ To launch the Jupyter notebook on the NCAR computers
 
 This is the NCAR data analysis cluster.  We use the cheyenne supercomputer to run the model.  We use the casper analysis cluster to do data analysis on model output or to do data analysis to prepare data for our model experiments.  
 
-You can now open the Jupyter notebook using the file browser in Jupyter.
+You can now open the Jupyter notebook using the file browser in Jupyter. Slect NPL2023a as kernel.
 
 We will walk through this notebook to look at our data and then to prepare them for use in the CESM.
 
