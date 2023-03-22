@@ -24,7 +24,7 @@ PwAw: Amber
 
 PcAc: Loren
 
-Climatology: Cristina 
+Climatology, PnAn: Cristina 
 
 2. When your data is ready, tell the class where to find it.  I will do the same for the climatology experiment.
 
