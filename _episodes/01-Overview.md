@@ -123,7 +123,7 @@ Let's look at the description of this variable in `env_run.xml`:
 
 Based on the filename, this appears to be SST and Ice data on a 1x1 degree grid from 1850-2017. We can do `ncdump -h` on the file to get more information.
 ~~~
-$ ncdump -h /glade/p/cesmdata/cseg/inputdata/atm/cam/sst/sst_HadOIBl_bc_1x1_1850_2017_c180507.nc
+$ ncdump -h /glade/campaign/cesm/cesmdata/inputdata/atm/cam/sst/sst_HadOIBl_bc_1x1_1850_2017_c180507.nc
 ~~~
 {: .language-bash}
 
