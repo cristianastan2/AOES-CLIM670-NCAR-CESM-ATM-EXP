@@ -92,6 +92,7 @@ Remember that the compset determines which grids are `scientifically validated`,
 >>> $ qcmd -A UGMU0049 -- ./case.build
 >>> $ ./xmlchange STOP_OPTION=nmonths
 >>> $ ./xmlchange STOP_N=1
+>>> $ ./xmlchange JOB_WALLCLOCK_TIME=2:00:00
 >>> ~~~
 >> {: .language-bash}
 > {: .solution}
