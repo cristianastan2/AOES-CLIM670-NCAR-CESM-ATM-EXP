@@ -132,7 +132,7 @@ The global attributes tell us how this data was made and even give us a referenc
 
 ~~~
 $ module load ncview
-$ ncview /glade/p/cesmdata/cseg/inputdata/atm/cam/sst/sst_HadOIBl_bc_1x1_1850_2017_c180507.nc
+$ ncview /glade/campaign/cesm/cesmdata/inputdata/atm/cam/sst/sst_HadOIBl_bc_1x1_1850_2017_c180507.nc
 ~~~
 {: .language-bash}
 
