@@ -10,8 +10,8 @@ keypoints:
 
 ### The SSTs
 
-The SSTs for each experiment are located on Hopper in:
-`/home/cstan/classes/clim670/data/droughtwg/`
+The SSTs for each experiment are located on NCAR computers in:
+`/glade/derecho/scratch/cstan/classes/droughtwg/`
 
 The SST anomalies for the Pacific are located in: `Pacific_SST.nc`
 
@@ -33,7 +33,7 @@ To launch the Jupyter notebook on the NCAR computers
 1. Log in to the Production [NCAR JupyterHub](https://jupyterhub.hpc.ucar.edu)
 2. Start a [server](https://arc.ucar.edu/knowledge_base/70549913)
 
-This is the NCAR data analysis cluster.  We use the cheyenne supercomputer to run the model.  We use the casper analysis cluster to do data analysis on model output or to do data analysis to prepare data for our model experiments.  
+This is the NCAR data analysis cluster.  We use the derecho supercomputer to run the model.  We use the casper analysis cluster to do data analysis on model output or to do data analysis to prepare data for our model experiments.  
 
 You can now open the Jupyter notebook using the file browser in Jupyter. Slect NPL2023a as kernel.
 
@@ -56,7 +56,7 @@ We can use `ncview` to take a quick look at our data file and confirm that it lo
 
 ~~~
 $ module load ncview
-$ ncview /glade/scratch/cstan/input/dwg_pacpos.nc
+$ ncview /glade/derecho/scratch/cstan/droughtwg/input/dwg_pacpos.nc
 ~~~
 {: .language-bash}
 
