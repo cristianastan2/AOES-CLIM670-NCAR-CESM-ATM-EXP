@@ -12,7 +12,7 @@ keypoints:
 
 We now need to change the model configuration to run with our new file. We will change some things and confirm a few other configuration parameters
 ~~~
-$ ./xmlchange SSTICE_DATA_FILENAME=/glade/derecho/scratch/cstan/droughtwg/input/dwg_pacpos.nc
+$ ./xmlchange SSTICE_DATA_FILENAME=/glade/derecho/scratch/cstan/droughtwg/input/dwg_climo.nc.nc
 ~~~
 {: .language-bash}
 
