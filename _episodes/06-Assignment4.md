@@ -41,7 +41,7 @@ PwAw: Heidi
 Climatology: Cristiana 
 
 
-2. When your data is ready, tell the class where to find it.
+2. When your data is ready, tell the class where to find it. I will do the same for the climatology experiment. 
 
 3. Make a plot of the difference between the annual mean for your experiment and the climatology experiment for precipitation and surface temperature over the continental US for each experiment.  This will make 2 9-panel figures.  One for preciptiation and one for surface temperature. 
 
