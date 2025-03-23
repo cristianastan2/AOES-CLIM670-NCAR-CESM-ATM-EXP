@@ -39,6 +39,6 @@ PwAw: Heidi
 
 Upload your figures/notebook to Canvas.
 
-*Due: Apr 10*
+*Due: Apr 7*
 
 
