@@ -14,7 +14,7 @@ We will explore this using a set of experiments designed to answer the question 
 
 In 2006, a group of scientists got together to understand predictability of drought because it has such a big societal impact.
 Each of them had the ability to perform experiments with a different atmosphere model. 
-They put together a set of experiments and each performed the experiment with their own model and they compared the results in the [Drought Working Group Paper](https://journals-ametsoc-org.mutex.gmu.edu/jcli/article/22/19/5251/32333)
+They put together a set of experiments and each performed the experiment with their own model and they compared the results in the [Drought Working Group Paper](https://doi.org/10.1175/2009JCLI3060.1)
 
 ### The Scientific Question
 
@@ -24,7 +24,7 @@ What is the role of the different ocean basins, including the impact of El Ninoâ
 
 SST anomalies were defined in the Atlantic and Pacific Oceans based on spatial patterns of annual mean SSTs from 1901-2004 determinedd by rotated EOFS..
 ![Dought Working Group Experiments](../fig/dwg_ssts.jpg)
-from [Schubert et al. Figure 1](https://journals-ametsoc-org.mutex.gmu.edu/jcli/article/22/19/5251/32333)
+from [Schubert et al. Figure 1](https://doi.org/10.1175/2009JCLI3060.1)
 
 The first EOF is consistent with the global mean trend.
 
