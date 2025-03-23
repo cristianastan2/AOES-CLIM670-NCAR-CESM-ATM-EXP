@@ -21,14 +21,23 @@ w = 2*SST anomaly
 c = -2 * SST anomaly
 
 PwAn: Aasma
+
 PwAc: Sara
+
 PnAw: Katherine
+
 PnAn: Sany
+
 PnAc: Austin
+
 PcAw: Jaedyn
+
 PcAn: Jakub
+
 PcAc: Ivy
+
 PwAw: Heidi
+
 Climatology: Cristiana 
 
 
