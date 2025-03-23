@@ -5,7 +5,7 @@ questions:
 - "How is the ocean forcing defined?"
 objectives:
 keypoints:
-- ""
+- "F compset"
 ---
 
 In this lesson, we will learn about setting up experiments using the atmosphere with the ocean in data mode with prescribed SST forcing.  
