@@ -10,8 +10,8 @@ keypoints:
 
 ### The SSTs
 
-The SSTs for each experiment are located on COLA in:
-`/glade/scratch/cstan/droughtwg/`
+The SSTs for each experiment are located on Hopper in:
+`/home/cstan/classes/clim670/data/droughtwg/`
 
 The SST anomalies for the Pacific are located in: `Pacific_SST.nc`
 
